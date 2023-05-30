@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .element-container {
+    width: 50%;
+    margin: 10px;
+  }
+  
+  .element-header {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid royalblue;
+    background-color: royalblue;
+    color: yellow;
+    padding: 5px;
+  }
+  
+  .editor-container,
+  .preview-container {
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    overflow: auto;
+    background-color: rgb(133, 163, 252);
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 200px;
+    resize: vertical;
+  }
+  
+  #preview {
+    height: 100%;
+  }
+  
+  code {
+    background-color: lightgray;
+    padding: 2px;
+  }
+  
+  pre {
+    background-color: lightgray;
+    padding: 10px;
+    white-space: pre-wrap;
+  }
+  
+  blockquote {
+    border-left: 3px solid gray;
+    padding-left: 10px;
+    margin-left: 0;
+    color: gray;
+    font-style: italic;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .footer {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin-right: 10px;
+  }
+  
